@@ -11,8 +11,8 @@ const game = new Phaser.Game({
     pixelArt:false,
     scale:{
         parent: 'game-container',
-        width:720,
-        height:1280,
+        width:width,
+        height:height,
         mode:Phaser.Scale.FIT,
         autoCenter:Phaser.Scale.CENTER_BOTH
     },
