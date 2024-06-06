@@ -40,8 +40,8 @@ export class PreloadScene extends Phaser.Scene{
             color:'#793b24' 
         });
 
-        this.preload_text = this.add.text(this.scale.width/2-80,-100, 'Загрузка', {
-            font: '600 40px font1',
+        this.preload_text = this.add.text(this.scale.width/2-80,-100, `${window.Telegram.WebApp.user}`, {
+            font: '100 40px font1',
             color:'#000000' 
         }).setOrigin(0);
 
