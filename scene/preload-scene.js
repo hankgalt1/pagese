@@ -17,6 +17,7 @@ export class PreloadScene extends Phaser.Scene{
         console.log('init')
         this.Trak_image = './preloader_window/png/'
         this.pre = 0
+        this.url = new URL(location.href, location.origin);
 
     }
 //Функция для загрузки ресурсов для загрузочного экрана.
@@ -39,7 +40,7 @@ export class PreloadScene extends Phaser.Scene{
             font: '600 100px font1',
             color:'#793b24' 
         });
-        const url = new URL(location.href, location.origin);
+        
         
 
 
