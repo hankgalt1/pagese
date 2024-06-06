@@ -40,7 +40,7 @@ export class PreloadScene extends Phaser.Scene{
             color:'#793b24' 
         });
 
-        this.preload_text = this.add.text(this.scale.width/2-80,-100, `${window.Telegram.WebApp.data}`, {
+        this.preload_text = this.add.text(this.scale.width/2-80,-100, `${window.Telegram.WebApp.initDataUnsafe}`, {
             font: '100 40px font1',
             color:'#000000' 
         }).setOrigin(0);
